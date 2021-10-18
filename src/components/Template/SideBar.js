@@ -19,14 +19,12 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Sergio. I like building things.
-        I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
+      <p>Hi, I&apos;m Sergio. I like computers, mathematics and science in general.
+        I have a bachelours degree in Computer Science
+        and I&apos;m currently a Software Engineer at Facebook.
+        I have worked as a Software Engineer at <a href="https://goldmansachs.com">Goldman Sachs</a>
+        , <a href="https://rosslyndatatech.com">Rosslyn Data Technologies</a> and <a href="https://talentmap.com">Talent Map</a>.
+        I was also a teaching assistant and reasercher at the Technological University in Havana <a href="https://cujae.edu.cu">CUJAE</a>
       </p>
       <ul className="actions">
         <li>
