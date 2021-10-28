@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { faDownload } from '@fortawesome/free-solid-svg-icons/faDownload';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Main from '../layouts/Main';
 
@@ -25,12 +27,16 @@ const sections = [
 const Resume = () => (
   <Main
     title="Resume"
-    description="Sergio Navarretes's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
+    description="Sergio Navarrete's Resume"
   >
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
+          <h2 data-testid="heading">
+            <Link to="resume">
+              Resume
+            </Link> <Link to="/SergioNavarreteCV.pdf" target="_blank" download><FontAwesomeIcon icon={faDownload} /></Link>
+          </h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
