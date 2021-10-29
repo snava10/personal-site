@@ -35,7 +35,7 @@ const Resume = () => (
           <h2 data-testid="heading">
             <Link to="resume">
               Resume
-            </Link> <Link to="/SergioNavarreteCV.pdf" target="_blank" download><FontAwesomeIcon icon={faDownload} /></Link>
+            </Link> <Link to="/files/SergioNavarreteCV.pdf" target="_blank" download><FontAwesomeIcon icon={faDownload} /></Link>
           </h2>
           <div className="link-container">
             {sections.map((sec) => (
