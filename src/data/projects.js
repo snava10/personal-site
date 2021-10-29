@@ -1,47 +1,37 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
+    title: 'XPert',
     subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    image: '',
+    date: '2020',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Fully automated Big Data analytics tool.'
+      + ' Uses Apache Spark to process terabytes of data.'
+      + ' Elasticsearch a Kibana to store processed data and automatically build dashboards.'
+      + ' Web UI for the user to customize their analytics, upload data and consume the dashboards.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
+    title: 'Mongo Java Server',
+    subtitle: 'Open source in memory MongoDB implementation',
+    link: 'https://github.com/bwaldvogel/mongo-java-server',
     image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    date: '2021',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Fake implementation of the core MongoDB server in Java that can be used for integration tests.'
+      + 'Second highest contributor to the project.'
+      + '208 Start and 68 Forks on Github.'
+      + 'Contributed the following features: cursors, oplog, change streams and transactions.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
+    title: 'Scene Flow Estimation',
+    subtitle: 'Thesis project',
+    link: '',
     image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    date: '2013',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Scene flow estimation based on the optical flow from several cameras.'
+      + ' Graduation research project that resulted in an application to create a 3D movement model of a scene filmed by several cameras. Science Fair first prize awarded.',
   },
 ];
 

@@ -3,16 +3,13 @@ import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 
 const Cell = ({ data }) => (
-  <div className="cell-container">
+  <div>
     <article className="mini-post">
       <header>
         <h3><a href={data.link}>{data.title}</a></h3>
-        <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
+        <time className="published">{dayjs(data.date).format('YYYY')}</time>
       </header>
-      <a href={data.link} className="image">
-        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
-      </a>
-      <div className="description">
+      <div className="description" style={{ paddingLeft: 20 }}>
         <p>{data.desc}</p>
       </div>
     </article>
