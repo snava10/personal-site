@@ -23,7 +23,7 @@ I have also touched on aspects of AI, Machine Learning, Data Science, Computer V
 - Dancing
 - Astronomy and literally "rocket science"
 
-# I would like to
+# I dream of
 
-- start a software company
-- open a bar with live music every night
+- Starting a software company
+- Opening a bar with live music every night
